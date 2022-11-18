@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day4</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 style="text-align:  center;">CSS Interview Questions</h1>
+    <h1 style="text-align:  center;">Day4</h1>
+    <a href="question1.html"><h3>1. Create masterhead- add background image and put a text at the center, with button below it</h3></a>
+    <a href="question2.html"><h3>2. Create header--left side will have logo nd right side will have 4 button</h3></a>
+    <a href="question3.html"><h3>3. Create 3 cards of height & width 200ps aith texts in it, the card should be horizontally placed in web view and vertically in mobile view</h3></a>
+    <a href="question4.html"><h3>4. Create a button like Login and signup button of prepbytes website.</h3>
+        <p>if mobile: button color should be green and they should be below each other</p>
+        <p>if ipad: buttons color should be red and they should be below each other</p>
+        <p>if desktop: buttons color should be blue and they should be side-by-side each other</p>
+    </a>
+    <h3>5. Write code to show implementation of flex</h3>
+    <p>Index.html Page:</p>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;link rel="stylesheet" href="index.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class="flex-container"&gt;
+        &lt;div class="flex1"&gt;&lt;/div&gt;
+        &lt;div class="flex2"&gt;&lt;/div&gt;
+        &lt;div class="flex3"&gt;&lt;/div&gt;
+        &lt;div class="flex4"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+    </pre>
+    <p>Index.css Page</p>
+    <pre>
+body{
+    margin:0;
+    width:100%;
+    padding:0;
+    }
+.flex-container{
+    display:flex;
+    width:100%;
+    margin:10px;
+    padding:20px;
+}
+.flex1{
+    width:150px;
+    height:150px;
+    background-color:blue;
+    border:2px solid;
+}
+.flex2{
+    width:150px;
+    height:150px;
+    background-color:red;
+    border:2px solid;
+}
+.flex3{
+    width:150px;
+    height:150px;
+    background-color:yellow;
+    border:2px solid;
+}
+.flex4{
+    width:150px;
+    height:150px;
+    background-color:green;
+    border:2px solid;
+}
+    </pre>
+</body>
+</html>
